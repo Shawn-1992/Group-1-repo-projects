@@ -7,6 +7,16 @@ The following project utilizes an **Agile** approach to software testing and dev
 **TDD**: Test-Driven Development
 **API**: Application Programming Interface
 
+### Team 1 Members:
+- Kristina Markina - Lead 
+- Chase Davis - Code
+- Shawn Palmer - Code
+- Deandre Scott - Test
+- Marvelle Carter - Code
+- Noah Garner - Documentation
+- Dawson Pridgen - Code
+- Keiran Foster - Test
+
 ## Features
 
 * Interactive labs for learning software tools and techniques.
