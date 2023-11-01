@@ -12,7 +12,7 @@ driver = webdriver.Firefox()
 
 # Navigate to root URL
 # The default root URL of a flask application uses the host '127.0.0.1' and port '5000'.
-driver.get('http://127.0.0.1:5000')
+driver.get('localhost:5000')
 
 # Navigate to the search page
 driver.get('http://localhost:5000/search')

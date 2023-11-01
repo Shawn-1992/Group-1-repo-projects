@@ -8,6 +8,7 @@ app = Flask(__name__)
 def index():
     return render_template('home_page.html')
 
+
 @app.route('/search')
 def search():
     return 'This is the search page. Enter a query in the URL.'
