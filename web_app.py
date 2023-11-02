@@ -25,6 +25,6 @@ def form():
         data = request.form
         return f'You submitted the form with data: {data}'
     return render_template('form.html')
-
+print("Testing git")
 if __name__ == '__main__':
     app.run(debug=True)
