@@ -40,6 +40,7 @@ The following project utilizes an **Agile** approach to software testing and dev
 | 2   | BDD       |
 | 3   | API       |
 | 4   | TDD       |
+| 5   | DevOps    |
 
 ## Expectations
 Identify errors, inconsistencies, or other noteworthy improvements and document them.
