@@ -9,12 +9,12 @@ The following project utilizes an **Agile** approach to software testing and dev
 
 ### Team 1 Members:
 - Kristina Markina - Lead 
-- Chase Davis - Code
-- Shawn Palmer - Code
-- Deandre Scott - Test
-- Marvelle Carter - Code
-- Noah Garner - Documentation
-- Dawson Pridgen - Code
+- Chase Davis - BDD
+- Shawn Palmer - Selenium & DevOps
+- Deandre Scott - BDD
+- Marvelle Carter - Tester
+- Noah Garner - TDD
+- Dawson Pridgen - API
 
 ## Features
 
