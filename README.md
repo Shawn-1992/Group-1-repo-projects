@@ -3,9 +3,11 @@
 ## Project Overview
 
 The following project utilizes an **Agile** approach to software testing and development. This project will serve those without technical expertise to better understand the tools and processes necessary for software quality assurance. The project aims to demonstrate how to properly operate platforms such as **Selenium** and **Postman**. The project will also implement behavior-driven (**BDD**) software development frameworks like **Behave**. Expect to find information and resources on web application testing. Labs are designed and centered around the following:
-**BDD**: Behavior-Driven Development
-**TDD**: Test-Driven Development
-**API**: Application Programming Interface
+
+<br>**BDD**: Behavior-Driven Development
+<br>**TDD**: Test-Driven Development
+<br>**API**: Application Programming Interface
+<br>**CI/CD**: Continuous Integration and Development
 
 ### Team 1 Members:
 - Kristina Markina - Lead 
