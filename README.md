@@ -15,7 +15,6 @@ The following project utilizes an **Agile** approach to software testing and dev
 - Marvelle Carter - Code
 - Noah Garner - Documentation
 - Dawson Pridgen - Code
-- Keiran Foster - Test
 
 ## Features
 
