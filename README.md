@@ -27,9 +27,11 @@ The following project utilizes an **Agile** approach to software testing and dev
 ## Visual aid diagram:
 ```mermaid
 erDiagram
-    USER ||--o{ LAB : completes
+    USER ||--o{ BRANCH : visits
     USER ||--o{ DOCUMENTATION : reviews
+    USER ||--o{ LAB : completes
     BRANCH ||--|{ LAB : contains
+    BRANCH ||--|{ DOCUMENTATION : contains
 ```
 
 ## User instructions
