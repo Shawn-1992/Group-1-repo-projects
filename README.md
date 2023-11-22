@@ -1,43 +1,9 @@
-# Understanding Various Software Testing Techniques Using Python
+# BDD Lab: Introduction to Behavior-driven Development
 
-## Project Overview
+## Lab Overview
 
-The following project utilizes an **Agile** approach to software testing and development. This project will serve those without technical expertise to better understand the tools and processes necessary for software quality assurance. The project aims to demonstrate how to properly operate platforms such as **Selenium** and **Postman**. The project will also implement behavior-driven (**BDD**) software development frameworks like **Behave**. Expect to find information and resources on web application testing. Labs are designed and centered around the following:
-**BDD**: Behavior-Driven Development
-**TDD**: Test-Driven Development
-**API**: Application Programming Interface
-
-## Features
-
-* Interactive labs for learning software tools and techniques.
-* Comprehensive documentation following **Agile** principles.
-* Resources on relevant software testing frameworks and practices.
-
-## Visual aid diagram:
-(Here will be a diagram outlining the design of the labs)
-
-## User instructions
-
-1. Reference lab documentation/information.
-2. Download the necessary files, in accordance to their version/dependencies.
-3. Analyze and review lab contents.
-4. Solve all major tasks using the correlating software or framework.
-
-## Labs
-| Lab | Topic     |
-| --- | --------  |
-| 1   | Selenium  |
-| 2   | BDD       |
-| 3   | API       |
-| 4   | TDD       |
-
-## Expectations
-Identify errors, inconsistencies, or other noteworthy improvements and document them.
-Communicate openly. Notify others of resolved issues and provide feedback.
-Monitor objectives, goals, and overall progress on **GitHub**.
-
-## Known Issues
-(Here is where to place issues as they update and appear.)
+Welcome to the BDD Lab! In this lab, you will learn how to communicate requirements and acceptance criteria using Gherkin syntax. BDD is about focusing on behaviors. Gherkin is one language for describing said behaviors that is simple and easy for non-programmers to learn.
+By the end of this lab, you will understand the BDD methodology and how it addresses users' needs through software development.
 
 ## Reference Materials
 - **Python**:
