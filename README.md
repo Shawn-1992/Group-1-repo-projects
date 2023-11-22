@@ -8,9 +8,7 @@ By the end of this lab, you will understand the BDD methodology and how it addre
 ## Reference Materials
 - **Python**:
   * [Python Documentation](https://docs.python.org/3/)
-- **Selenium**:
-  * [Selenium with Python](https://selenium-python.readthedocs.io/)
+- **Gherkin**:
+  * [Gherkin Documentation](https://cucumber.io/docs/gherkin/)
 - **Behave**:
   * [Behave Documentation](https://behave.readthedocs.io/en/latest/)
-- **Postman**:
-  * [Postman Learning Center](https://learning.postman.com/)
