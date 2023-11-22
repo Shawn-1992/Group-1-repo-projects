@@ -7,9 +7,5 @@ By the end of this lab, you will know how to use the TDD methodology to aid in s
 ## Reference Materials
 - **Python**:
   * [Python Documentation](https://docs.python.org/3/)
-- **Selenium**:
-  * [Selenium with Python](https://selenium-python.readthedocs.io/)
-- **Behave**:
-  * [Behave Documentation](https://behave.readthedocs.io/en/latest/)
-- **Postman**:
-  * [Postman Learning Center](https://learning.postman.com/)
+- **TDD**:
+  * [TDD Documentation](https://agiledata.org/essays/tdd.html)
