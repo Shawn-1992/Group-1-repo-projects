@@ -8,3 +8,5 @@ Welcome to the API Lab! In this lab, you will learn how to integrate new applica
   * [Python Documentation](https://docs.python.org/3/)
 - **API**:
   * [API with Python](https://www.dataquest.io/blog/python-api-tutorial/)
+- **Postman**:
+  * [Postman Learning Center](https://learning.postman.com/)
