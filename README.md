@@ -25,7 +25,12 @@ The following project utilizes an **Agile** approach to software testing and dev
 * Resources on relevant software testing frameworks and practices.
 
 ## Visual aid diagram:
-(Here will be a diagram outlining the design of the labs)
+```mermaid
+erDiagram
+    USER ||--o{ LAB : completes
+    USER ||--o{ DOCUMENTATION : reviews
+    BRANCH ||--|{ LAB : contains
+```
 
 ## User instructions
 
