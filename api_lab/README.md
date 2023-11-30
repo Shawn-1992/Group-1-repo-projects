@@ -1,5 +1,6 @@
-# Understanding Various Software Testing Techniques Using Python
+# API Lab: Introduction to Application Programming Interfaces
 
+<<<<<<< HEAD
 ## Project Overview
 
 The following project utilizes an **Agile** approach to software testing and development. This project will serve those without technical expertise to better understand the tools and processes necessary for software quality assurance. The project aims to demonstrate how to properly operate platforms such as **Selenium** and **Postman**. The project will also implement behavior-driven (**BDD**) software development frameworks like **Behave**. Expect to find information and resources on web application testing. Labs are designed and centered around the following:
@@ -57,13 +58,15 @@ Monitor objectives, goals, and overall progress on **GitHub**.
 
 ## Known Issues
 (Here is where to place issues as they update and appear.)
+=======
+## Lab Overview
+Welcome to the API Lab! In this lab, you will learn how to use Postman to simplify the API process of building applications for existing software systems. By the end of this lab, you will understand how to use APIs to leverage existing code and seamlessly integrate across applications. 
+>>>>>>> origin/API-Tests-Lab
 
 ## Reference Materials
 - **Python**:
   * [Python Documentation](https://docs.python.org/3/)
-- **Selenium**:
-  * [Selenium with Python](https://selenium-python.readthedocs.io/)
-- **Behave**:
-  * [Behave Documentation](https://behave.readthedocs.io/en/latest/)
+- **API**:
+  * [API with Python](https://www.dataquest.io/blog/python-api-tutorial/)
 - **Postman**:
   * [Postman Learning Center](https://learning.postman.com/)
