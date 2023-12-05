@@ -1,4 +1,4 @@
-# Group Project
+# Understanding Various Software Testing Techniques Using Python
 
 ## Project Overview
 
@@ -43,13 +43,13 @@ erDiagram
 4. Solve all major tasks using the correlating software or framework.
 
 ## Labs
-| Lab | Topic       |
-| --- |-------------|
-| 1   | Selenium    |
-| 2   | BDD         |
-| 3   | API         |
-| 4   | TDD         |
-| 5   | CICD/DevOps |
+| Lab | Topic     |
+| --- | --------  |
+| 1   | Selenium  |
+| 2   | BDD       |
+| 3   | API       |
+| 4   | TDD       |
+| 5   | DevOps    |
 
 ## Expectations
 Identify errors, inconsistencies, or other noteworthy improvements and document them.
