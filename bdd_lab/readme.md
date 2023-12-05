@@ -87,7 +87,8 @@ Try altering the calculator example included in this lab to describe the basic b
 
 ![supplemental output](./images/supplemental_output.png)
 
-2. Add the following code to `calculator_steps.py`:
+2. Copy `supplemental` folder into `testing` folder.
+3. Add the following code to `calculator_steps.py` file:
 
 ```python
 @when('the user divides two numbers')
@@ -99,6 +100,22 @@ def step_then_result_quotient(context):
     assert context.result_quotient == 5
 ```
 
+4. Add the following scenario to `calculator_features.feature` file:
+
+```gherkin
+Scenario: Divide Numbers
+    Given the calculator is on
+    When the user divides two numbers
+    Then the result should be the quotient
+```
+
+5. Run behave and make sure that tests still passes.
+
+![division passes](./images/division_passes.png)
+
+6. Add more scenarios and test your changes. You can get something like that:
+
+![calculator final](./images/calculator%20final.png)
 
 
 ## Reference Materials
