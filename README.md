@@ -8,6 +8,7 @@ The following project utilizes an **Agile** approach to software testing and dev
 <br>**TDD**: Test-Driven Development
 <br>**API**: Application Programming Interface
 <br>**CI/CD**: Continuous Integration and Development
+<br>**Selenium**: create web applications using Flask and test it using Selenium
 
 ### Team 1 Members:
 - Kristina Markina - Lead 
@@ -54,16 +55,3 @@ erDiagram
 Identify errors, inconsistencies, or other noteworthy improvements and document them.
 Communicate openly. Notify others of resolved issues and provide feedback.
 Monitor objectives, goals, and overall progress on **GitHub**.
-
-## Known Issues
-(Here is where to place issues as they update and appear.)
-
-## Reference Materials
-- **Python**:
-  * [Python Documentation](https://docs.python.org/3/)
-- **Selenium**:
-  * [Selenium with Python](https://selenium-python.readthedocs.io/)
-- **Behave**:
-  * [Behave Documentation](https://behave.readthedocs.io/en/latest/)
-- **Postman**:
-  * [Postman Learning Center](https://learning.postman.com/)
