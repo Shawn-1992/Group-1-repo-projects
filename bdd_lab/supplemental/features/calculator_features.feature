@@ -6,5 +6,5 @@ Feature: Basic Calculator
     Given the calculator is on
     When the user adds two numbers
     Then the result should be the sum
-    And the user multiplies two numbers
+    When the user multiplies two numbers
     Then the result should be the product

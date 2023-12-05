@@ -83,6 +83,24 @@ You can use calculator_steps.py and calculator_features.feature to reimagine var
 Follow the outlined approach (Given, When, Then, And).
 Try altering the calculator example included in this lab to describe the basic behaviors of any object, application, or program.
 
+1. Navigate to `bdd_lab/supplemental/`. Make sure behave passes.
+
+![supplemental output](./images/supplemental_output.png)
+
+2. Add the following code to `calculator_steps.py`:
+
+```python
+@when('the user divides two numbers')
+def step_when_user_divides_numbers(context):
+    context.result_quotient = 10 / 2
+
+@then('the result should be the quotient')
+def step_then_result_quotient(context):
+    assert context.result_quotient == 5
+```
+
+
+
 ## Reference Materials
 - **Python**:
   * [Python Documentation](https://docs.python.org/3/)
