@@ -1,5 +1,5 @@
 # The following file specifies the expected behavior of a calculator. You should recognize the Given-When-Then style
-# of representing tests. This same structure can be reapplied to describe the intended behavior of any system,
+# of representing testing. This same structure can be reapplied to describe the intended behavior of any system,
 # in a concise and consistent manner.
 
 from behave import given, when, then
