@@ -37,7 +37,8 @@ erDiagram
 
 ## User instructions
 
-1. Reference lab documentation/information.
+1. Clone the project to your local machine and configure interpreter.
+2. Reference lab documentation/information.
 2. Download the necessary files, in accordance to their version/dependencies.
 3. Analyze and review lab contents.
 4. Solve all major tasks using the correlating software or framework.
