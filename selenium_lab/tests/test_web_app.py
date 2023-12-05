@@ -1,5 +1,5 @@
 import pytest
-from web_app import app
+from selenium_lab.web_app import app
 
 # creates a Flask test client (app.test_client())
 # that can be used to simulate HTTP requests and
