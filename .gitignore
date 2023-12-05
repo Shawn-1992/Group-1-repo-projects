@@ -18,6 +18,7 @@ sdist/
 var/
 venv
 .idea
+.DS_Store
 *.egg-info/
 .installed.cfg
 *.egg
