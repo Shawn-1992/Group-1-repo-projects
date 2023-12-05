@@ -59,8 +59,56 @@ To solidify your understanding of Test-driven development, check that your progr
 
 Lastly, consider adding additional tests for functions not yet implemented or altering the existing tests to achieve different results. Although the base program is simple, you can expand or change the design to fulfill another purpose. 
 
-
 ## Expected Results
+
+1. Create class ShippingCrate and initialize it. All 4 tests should fail.
+
+![tests fail before adding add and quantity methods](./images/tests_fail_before_add_and_quantity.png)
+
+2. Add the following methods to ShippingCrate class (add and quantity):
+
+```python
+# Function for adding products to a list.
+    def add(self, product: str):
+        if self.quantity() == self.max_quantity:
+            raise OverflowError("No additional products can be added")
+        self.products.append(product)
+
+    # Function for storing products to a list.
+    def quantity(self) -> int:
+        return len(self.products)
+```
+
+3. Test again. Now this tests passed but getting products and getting total cost still fails.
+
+![test fails after adding add and quantity method](./images/tests_fail_after_add_and_quantity.png)
+
+4. Add get_product method
+
+```python
+    # Function for returning products in a list.
+    def get_products(self) -> List[str]:
+        return self.products
+```
+
+5. This fixed one test but not another:
+
+![test fails after sadding get_product method](./images/test_fails_after_adding_get_product.png)
+
+6. Add get_total_cost method:
+
+```python
+    # Function for calculating total cost of products in a list.
+    def get_total_cost(self, cost_map):
+        total_cost = 0
+        for product in self.products:
+            total_cost += cost_map.get(product)
+        return total_cost
+```
+
+7. All tests passed:
+
+![all passed](./images/all_passed.png)
 
 ### Lab Examples
 
