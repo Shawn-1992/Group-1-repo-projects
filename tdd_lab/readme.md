@@ -110,6 +110,35 @@ Lastly, consider adding additional tests for functions not yet implemented or al
 
 ![all passed](./images/all_passed.png)
 
+8. Add the following test to test_shipping_crate.py:
+
+```python
+def test_can_get_product_cost_from_database():
+    product_database = ProductDatabase()
+    assert product_database.get("product1") == 1.0
+```
+
+Run it. It should fail.
+
+![cannot get products from database](./images/cannot_get_products_from_database.png)
+
+9. Now add following code to tdd_database.py:
+
+```python
+    def __init__(self) -> None:
+        self.cost_map = {
+            "product1": 1.0,
+            "product2": 2.0
+        }
+
+    def get(self, product: str) -> float:
+        return self.cost_map.get(product, 0.0)
+```
+
+Now you can get products from database:
+
+![can get product from database](./images/can_get_products_from_database.png)
+
 ### Lab Examples
 
 The program you create following this lab will differ from the example program provided in this lab. However, you will end with a program that follows a similar structure.

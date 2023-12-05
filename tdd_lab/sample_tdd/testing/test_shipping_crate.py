@@ -51,4 +51,9 @@ def test_can_get_total_cost(crate):
     product_database.get = Mock(side_effect=mock_get_product)
     assert crate.get_total_cost(product_database) == 3.0
 
+
 # Failing Test / Test using unittest.mock values
+def test_can_get_product_cost_from_database():
+    product_database = ProductDatabase()
+    assert product_database.get("product1") == 1.0
+
