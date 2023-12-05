@@ -8,7 +8,7 @@ import pytest
 # The test outlines a program designed to simulate a
 # shipping crate containing products of varying costs.
 
-# Pytest fixture for establishing consistent data used across tests.
+# Pytest fixture for establishing consistent data used across testing.
 @pytest.fixture
 def crate():
     return ShippingCrate(5)

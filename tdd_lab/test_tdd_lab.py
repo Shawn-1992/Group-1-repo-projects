@@ -6,7 +6,7 @@
 # Rule 2: Write the minimal amount of test code to fail.
 # Rule 3: Write the minimal amount of code for the test to pass.
 
-# Reminder: Like the filename, In order for pytest to detect tests,
+# Reminder: Like the filename, In order for pytest to detect testing,
 # test functions require the 'test_' prefix.
 
 # Writing a failing test:
@@ -43,8 +43,8 @@
 # Refactoring the code:
 # Edit the test code to be more modular.
 
-# Pytest fixtures are a convenient way to define data to be reused across tests.
-# Define crate to be reusable in subsequent tests using a pytest fixture:
+# Pytest fixtures are a convenient way to define data to be reused across testing.
+# Define crate to be reusable in subsequent testing using a pytest fixture:
 
 # @pytest fixture
 # def crate():
@@ -165,7 +165,7 @@
 #       if product == "product2":
 #           return 2.0
 
-# You can find more information on using side effects in mock unit tests
+# You can find more information on using side effects in mock unit testing
 # in the additional resources section of the documentation.
 
 #       product_database.get = Mock(side_effect=mock_get_product)
